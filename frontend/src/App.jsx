@@ -1,3 +1,4 @@
+import Banner2 from "./Components/Banner2";
 import Students from "./Components/Students";
 import Tulas from "./Components/Tulas";
 import WhyTis from "./Components/WhyTis";
@@ -10,6 +11,7 @@ export default function App() {
       <YTbanner />
       <Tulas />
       <WhyTis />
+      <Banner2 />
     </div>
   );
 }

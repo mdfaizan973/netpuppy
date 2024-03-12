@@ -41,23 +41,49 @@ export default function WhyTis() {
             </div>
             <div className="small_img_container">
               <div className="smalltis_cont">
-                {/* <img src="../../public/smallerimages.jpg" /> */}
+                <div className="image-container-1">
+                  <img
+                    src="https://i.pinimg.com/564x/1d/22/0f/1d220ffe45e1cdd5035160f9e324920e.jpg"
+                    alt="Campus"
+                  />
+                </div>
+                <p>CAMPUS</p>
               </div>
               <div className="smalltis_cont">
-                {" "}
-                {/* <img src="../../public/smallerimages.jpg" /> */}
+                <div className="image-container-2">
+                  <img
+                    src="https://i.pinimg.com/564x/f0/1e/f8/f01ef836c411cb8b362919f2df6c83a1.jpg"
+                    alt="Expert Instruction"
+                  />
+                </div>
+                <p>EXPERT INSTRUCTION</p>
               </div>
               <div className="smalltis_cont">
-                {" "}
-                {/* <img src="../../public/smallerimages.jpg" /> */}
+                <div className="image-container-3">
+                  <img
+                    src="https://i.pinimg.com/564x/aa/5f/84/aa5f84d0749bba2fe1ee40701d25259b.jpg"
+                    alt="Campus"
+                  />
+                </div>
+                <p>TRAINING METHODS</p>
               </div>
               <div className="smalltis_cont">
-                {" "}
-                {/* <img src="../../public/smallerimages.jpg" /> */}
+                <div className="image-container-4">
+                  <img
+                    src="https://i.pinimg.com/564x/61/6d/f7/616df750a40382044332c27acfc9373a.jpg"
+                    alt="Campus"
+                  />
+                </div>
+                <p>RATIO</p>
               </div>
               <div className="smalltis_cont">
-                {" "}
-                {/* <img src="../../public/smallerimages.jpg" /> */}
+                <div className="image-container-5">
+                  <img
+                    src="https://i.ibb.co/jRsPyPL/9303d855799577b627cc4a128ab514bc-removebg-preview.png"
+                    alt="Campus"
+                  />
+                </div>
+                <p>MANAGEMENT</p>
               </div>
             </div>
           </div>
@@ -165,26 +191,56 @@ const DIV = styled.div`
   }
   .image_container {
     width: 75%;
-    height: 450px;
+    height: 460px;
+    margin-top: 15px;
   }
   .image_container img {
     width: 100%;
   }
   .small_img_container {
     width: 25%;
-    border: 1px solid teal;
-  }
-  .smalltis_cont {
-    width: 80%;
-    height: 20%;
-    overflow: hidden;
-    margin: auto;
-    border: 1px solid teal;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
   }
 
+  .smalltis_cont {
+    width: 70%;
+    height: 20%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .image-container-1,
+  .image-container-2,
+  .image-container-3,
+  .image-container-4,
+  .image-container-5 {
+    height: 75%;
+    width: 60%;
+    margin: auto;
+  }
+
+  .smalltis_cont:nth-child(5) {
+    background-color: red;
+    border-radius: 10px;
+  }
+  .smalltis_cont:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
   .smalltis_cont img {
-    width: 100%;
-    height: 100%;
+    max-width: 80%;
+    height: auto;
     object-fit: cover;
+    overflow: hidden;
+  }
+
+  .smalltis_cont p {
+    margin-top: -5px;
+    font-size: 12px;
+    font-weight: bold;
   }
 `;
