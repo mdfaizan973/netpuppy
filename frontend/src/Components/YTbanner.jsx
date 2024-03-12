@@ -10,7 +10,6 @@ export default function YTbanner() {
   );
 }
 const DIV = styled.div`
-  border: 1px solid green;
   margin-top: 10%;
   border-radius: 20px;
   border-radius: 25px;

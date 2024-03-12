@@ -194,10 +194,18 @@ const DIV = styled.div`
     justify-content: center;
     padding: 5px 10px;
     font-size: 13px;
-    font-weight: bold;
     border: none;
     border-radius: 5px;
     background-color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 34.5px;
+    background-color: #fff;
+    border: 2.5px solid #dbc79f;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     cursor: pointer;
     border-radius: 34.5px;
     border: 2.5px solid #dbc79f;
@@ -205,7 +213,11 @@ const DIV = styled.div`
     bottom: -10%;
     left: 15%;
   }
-
+  .activities_btn:hover {
+    background-color: #dbc79f;
+    color: #fff;
+    border-color: #dbc79f;
+  }
   .activities_btn img {
     margin-left: 40px;
     width: 20%;
