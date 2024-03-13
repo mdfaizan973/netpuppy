@@ -1,3 +1,4 @@
+import Achievement from "./Components/Achievement";
 import Banner2 from "./Components/Banner2";
 import Students from "./Components/Students";
 import Tulas from "./Components/Tulas";
@@ -12,6 +13,7 @@ export default function App() {
       <Tulas />
       <WhyTis />
       <Banner2 />
+      <Achievement />
     </div>
   );
 }
