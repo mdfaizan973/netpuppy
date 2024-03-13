@@ -1,6 +1,11 @@
 import styled from "styled-components";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export default function WhyTis() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="main_container">
@@ -10,7 +15,7 @@ export default function WhyTis() {
           </p>
         </div>
         <div className="content_container">
-          <div className="left_section">
+          <div className="left_section" data-aos="fade-right">
             <div className="focus_manage">
               <div className="focus">
                 <div className="focus_show">
@@ -36,11 +41,15 @@ export default function WhyTis() {
             </div>
           </div>
           <div className="right_section">
-            <div className="image_container">
+            <div className="image_container" data-aos="fade-left">
               <img src="../../public/241629295906 1.png" />
             </div>
             <div className="small_img_container">
-              <div className="smalltis_cont">
+              <div
+                className="smalltis_cont"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="image-container-1">
                   <img
                     src="https://i.pinimg.com/564x/1d/22/0f/1d220ffe45e1cdd5035160f9e324920e.jpg"
@@ -49,7 +58,11 @@ export default function WhyTis() {
                 </div>
                 <p>CAMPUS</p>
               </div>
-              <div className="smalltis_cont">
+              <div
+                className="smalltis_cont"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="image-container-2">
                   <img
                     src="https://i.pinimg.com/564x/f0/1e/f8/f01ef836c411cb8b362919f2df6c83a1.jpg"
@@ -58,7 +71,11 @@ export default function WhyTis() {
                 </div>
                 <p>EXPERT INSTRUCTION</p>
               </div>
-              <div className="smalltis_cont">
+              <div
+                className="smalltis_cont"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="image-container-3">
                   <img
                     src="https://i.pinimg.com/564x/aa/5f/84/aa5f84d0749bba2fe1ee40701d25259b.jpg"
@@ -67,7 +84,11 @@ export default function WhyTis() {
                 </div>
                 <p>TRAINING METHODS</p>
               </div>
-              <div className="smalltis_cont">
+              <div
+                className="smalltis_cont"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="image-container-4">
                   <img
                     src="https://i.pinimg.com/564x/61/6d/f7/616df750a40382044332c27acfc9373a.jpg"
@@ -76,7 +97,11 @@ export default function WhyTis() {
                 </div>
                 <p>RATIO</p>
               </div>
-              <div className="smalltis_cont">
+              <div
+                className="smalltis_cont"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="image-container-5">
                   <img
                     src="https://i.ibb.co/jRsPyPL/9303d855799577b627cc4a128ab514bc-removebg-preview.png"

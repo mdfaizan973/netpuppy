@@ -1,11 +1,16 @@
+import { useEffect } from "react";
 import styled from "styled-components";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Ranking() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="parent_contaer">
         <div className="cont_one">
-          <div className="child_cont_one">
+          <div className="child_cont_one" data-aos="zoom-out">
             <div className="ranking">
               <img src="../../public/NicePng_trophy-icon-png_1370145.png" />
               <h3>Our Rankings</h3>
@@ -17,7 +22,7 @@ export default function Ranking() {
           <img src="../../public/arrow.png" />
         </div>
         <div className="cont_the">
-          <div className="cont_the_child">
+          <div className="cont_the_child" data-aos="zoom-out">
             <div className="contthe_contnet">
               <h1>#1</h1>
               <h4>In Dehradun</h4>
@@ -28,8 +33,7 @@ export default function Ranking() {
             </div>{" "}
           </div>
           <div className="cont_the_child">
-            {" "}
-            <div className="cont_the_child">
+            <div className="cont_the_child" data-aos="zoom-out">
               <div className="contthe_contnet">
                 <h1>#2</h1>
                 <h4>In Uttarakhand</h4>
@@ -42,7 +46,7 @@ export default function Ranking() {
           </div>
           <div className="cont_the_child">
             {" "}
-            <div className="cont_the_child">
+            <div className="cont_the_child" data-aos="zoom-out">
               <div className="contthe_contnet">
                 <h1>#4</h1>
                 <h4>In India</h4>

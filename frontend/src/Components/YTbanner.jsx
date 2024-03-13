@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import styled from "styled-components";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function YTbanner() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="ytlogo">

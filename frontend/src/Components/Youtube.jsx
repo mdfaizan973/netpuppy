@@ -1,10 +1,15 @@
 import styled from "styled-components";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export default function Youtube() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="main_conter">
-        <div className="left_conter">
+        <div className="left_conter" data-aos="fade-up">
           <div className="text_cont">
             <div className="head">
               <h1>
@@ -37,7 +42,7 @@ export default function Youtube() {
             </div>
           </div>
         </div>
-        <div className="right_conter">
+        <div className="right_conter" data-aos="fade-up">
           <div className="video_container">
             <iframe
               width="560"

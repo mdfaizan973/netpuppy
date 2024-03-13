@@ -1,5 +1,11 @@
 import styled from "styled-components";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export default function Banner2() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="main_container">
@@ -18,7 +24,11 @@ export default function Banner2() {
             </div>
           </div>
         </div>
-        <div className="red_container">
+        <div
+          className="red_container"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <div className="child_container">
             <h2>100%</h2>
             <p>College Acceptance</p>

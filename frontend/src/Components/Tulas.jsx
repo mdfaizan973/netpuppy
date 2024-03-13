@@ -1,13 +1,18 @@
 import styled from "styled-components";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Tulas() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="container">
-        <div className="left-section">
+        <div className="left-section" data-aos="fade-right">
           <img src="../../public/image19.png" alt="Image" />
         </div>
-        <div className="right-section">
+        <div className="right-section" data-aos="fade-left">
           <h2>At Tula’s, we ask, “How can we make school better?”</h2>
           <p>
             Using the latest research on how girls learn best, we designed an

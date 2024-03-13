@@ -1,17 +1,23 @@
 import styled from "styled-components";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export default function Students() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <DIV>
       <div className="main_container">
         <div className="right_container">
-          <div className="text_area">
+          <div className="text_area" data-aos="fade-up-right">
             <p className="para">
               Our commitment to all-round development shines in diverse
               extracurricular activities.
             </p>
             <p className="heading">( Our Students love that! )</p>
           </div>
-          <div className="image1">
+          <div className="image1" data-aos="fade-up-right">
             <div className="image_parent">
               <div className="text_swim">
                 <p>Swimming</p>
@@ -31,7 +37,7 @@ export default function Students() {
           </button>
         </div>
         <div className="left_container">
-          <div className="left_img_parent">
+          <div className="left_img_parent" data-aos="fade-up-left">
             <div className="image2">
               <div className="custom_text_area">
                 <div className="custom_text_swim">
@@ -49,7 +55,7 @@ export default function Students() {
             </div>
           </div>
 
-          <div className="left_img_parent2">
+          <div className="left_img_parent2" data-aos="fade-up-left">
             <div className="left_img_child">
               <div className="custom_text_area">
                 <div className="custom_text_swim">
