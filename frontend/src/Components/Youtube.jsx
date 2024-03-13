@@ -37,7 +37,19 @@ export default function Youtube() {
             </div>
           </div>
         </div>
-        <div className="right_conter">2</div>
+        <div className="right_conter">
+          <div className="video_container">
+            <iframe
+              width="560"
+              height="355"
+              src="https://www.youtube.com/embed/PavYAOpVpJI"
+              frameBorder="10px"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="red_area"></div>
+        </div>
       </div>
     </DIV>
   );
@@ -74,19 +86,19 @@ const DIV = styled.div`
     letter-spacing: 1.6px;
   }
   .para {
-    text-align: start;
-    margin-top: 40px;
+    /* text-align: start; */
+    margin-top: 20px;
   }
   .para p {
     color: #000;
     font-family: "TT Chocolates Trl";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.6px;
     width: 70%;
-    margin: auto;
+    margin: 20px auto;
   }
   .head span {
     color: #b90124;
@@ -108,8 +120,34 @@ const DIV = styled.div`
     width: 10%;
   }
   .right_conter {
-    border: 1px solid green;
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .video_container {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin-right: -150px;
+    overflow: hidden;
+    z-index: 999;
+  }
+
+  .video_container iframe {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    border: 1px solid white;
+  }
+  .red_area {
+    width: 50%;
+    height: 80%;
+    background: #b90124;
+    z-index: -1;
   }
 `;
