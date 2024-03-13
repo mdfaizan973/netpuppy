@@ -7,7 +7,7 @@ export default function YTbanner() {
     AOS.init({ duration: 2500 });
   }, []);
   return (
-    <DIV>
+    <DIV data-aos="fade-up">
       <div className="ytlogo">
         <img src="https://static-00.iconduck.com/assets.00/youtube-icon-512x359-dyeyi1hm.png" />
       </div>

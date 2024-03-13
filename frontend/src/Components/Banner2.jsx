@@ -7,7 +7,7 @@ export default function Banner2() {
     AOS.init({ duration: 2500 });
   }, []);
   return (
-    <DIV>
+    <DIV data-aos="fade-up">
       <div className="main_container">
         <div className="middle_cont">
           <div className="thresix">

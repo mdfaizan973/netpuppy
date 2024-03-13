@@ -102,7 +102,7 @@ const DIV = styled.div`
     width: 110px;
     height: 110px;
     position: absolute;
-    /* top: 50%; */
+    top: 50%;
   }
   .center_image img {
     width: 100%;
@@ -146,7 +146,7 @@ const DIV = styled.div`
     padding: 8px;
   }
   .image1 {
-    width: 70%;
+    width: 75%;
     height: 40%;
     position: absolute;
     left: 11%;
@@ -226,7 +226,7 @@ const DIV = styled.div`
     border-radius: 34.5px;
     border: 2.5px solid #dbc79f;
     position: absolute;
-    bottom: -10%;
+    bottom: -8px;
     left: 15%;
   }
   .activities_btn:hover {
@@ -241,9 +241,11 @@ const DIV = styled.div`
   /* for-left */
   .left_container {
     width: 45%;
+    margin-top: 50px;
   }
   .left_img_parent {
-    width: 70%;
+    width: 75%;
+
     height: 40%;
     border-radius: 15px;
     margin: auto;
@@ -299,11 +301,11 @@ const DIV = styled.div`
     height: auto;
   }
   .left_img_parent2 {
-    width: 72%;
+    width: 75%;
     height: 40%;
     border-radius: 15px;
     margin: auto;
-    margin-top: 13%;
+    margin-top: 17%;
     position: relative;
   }
   .left_img_child {

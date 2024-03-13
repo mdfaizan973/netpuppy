@@ -40,6 +40,7 @@ export default function Students() {
             <img src="https://i.ibb.co/BCVWMM8/imagearrow2.png" />
           </button>
         </div>
+
         <div className="left_container">
           <div className="left_img_parent" data-aos="fade-up-left">
             <div className="image2">
@@ -157,13 +158,13 @@ const DIV = styled.div`
   .image_parent {
     position: relative;
     width: 80%;
-    height: 100%;
-    margin: auto;
+    height: 40% !important;
+    margin: 150px auto !important;
   }
 
   .text_swim {
     position: absolute;
-    bottom: 15%;
+    bottom: 40% !important;
     left: 0;
     font-size: 25px;
     width: 100%;
@@ -174,7 +175,7 @@ const DIV = styled.div`
     line-height: normal;
     letter-spacing: 0.8px;
   }
-  .image_parent {
+  /* .image_parent {
     position: relative;
     width: 80%;
     height: 100%;
@@ -182,11 +183,12 @@ const DIV = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-  }
+  } */
 
   .text_swim {
     position: absolute;
     bottom: 15%;
+    color: white;
     left: 0;
     font-size: 25px;
     width: 100%;
@@ -198,6 +200,7 @@ const DIV = styled.div`
     align-items: center;
     position: absolute;
     width: 100%;
+    color: white;
     bottom: 2%;
     padding: 2px;
   }
@@ -205,6 +208,7 @@ const DIV = styled.div`
   .text_arrow_text {
     font-size: 12px;
     width: 40%;
+    margin-top: -10px !important;
   }
 
   .text_arrow_arrow {
@@ -282,9 +286,11 @@ const DIV = styled.div`
     border-radius: 10px;
     width: 80%;
     margin: auto;
-    position: absolute;
+    /* position: absolute;
     bottom: 15px;
-    left: 10%;
+    left: 10%; */
+    margin-top: 200px;
+    color: white;
   }
 
   .custom_text_swim,
@@ -302,8 +308,8 @@ const DIV = styled.div`
 
   .custom_text_arrow_text {
     font-size: 12px;
+    color: white;
     width: 40%;
-    color: #333;
   }
 
   .custom_text_arrow_arrow img {
@@ -325,12 +331,6 @@ const DIV = styled.div`
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 15%;
+    left: 8%;
   }
-
-  /* .background_clr {
-    height: 100%;
-    width: 100%;
-    border: 1px solid #000;
-  } */
 `;
