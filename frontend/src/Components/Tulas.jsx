@@ -10,7 +10,10 @@ export default function Tulas() {
     <DIV>
       <div className="container">
         <div className="left-section" data-aos="fade-right">
-          <img src="../../public/image19.png" alt="Image" />
+          <img
+            src="https://netpuppy.vercel.app/static/media/image19.47c60a75034add82dbf0.png"
+            alt="Image"
+          />
         </div>
         <div className="right-section" data-aos="fade-left">
           <h2>At Tula’s, we ask, “How can we make school better?”</h2>
@@ -23,7 +26,7 @@ export default function Tulas() {
           </p>
 
           <button className="learnmore_btn">
-            LEARN MORE <img src="../../public/imagearrow2.png" />
+            LEARN MORE <img src="https://i.ibb.co/BCVWMM8/imagearrow2.png" />
           </button>
         </div>
       </div>

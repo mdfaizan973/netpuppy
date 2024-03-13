@@ -21,7 +21,10 @@ export default function Achievement() {
                     22 Acres, Pollution-Free, World-Class.
                   </div>
                   <div className="custom_text_arrow_arrow">
-                    <img src="../../public/arrow.png" alt="Arrow" />
+                    <img
+                      src="https://i.ibb.co/0mHkgyR/download-6.png"
+                      alt="Arrow"
+                    />
                   </div>
                 </div>
               </div>
@@ -39,7 +42,10 @@ export default function Achievement() {
                     22 Acres, Pollution-Free, World-Class.
                   </div>
                   <div className="custom_text_arrow_arrow">
-                    <img src="../../public/arrow.png" alt="Arrow" />
+                    <img
+                      src="https://i.ibb.co/0mHkgyR/download-6.png"
+                      alt="Arrow"
+                    />
                   </div>
                 </div>
               </div>
@@ -54,7 +60,7 @@ export default function Achievement() {
             </p>
             <p className="heading">(Everybody Loves that)</p>
           </div>
-          <div className="image1" data-aos="fade-up-left">
+          <div className="image1" data-aos="fade-up">
             <div className="image_parent">
               <div className="text_swim">
                 <p>Swimming</p>
@@ -64,13 +70,17 @@ export default function Achievement() {
                   22 Acres, Pollution- Free, World-Class.
                 </div>
                 <div className="text_arrow_arrow">
-                  <img src="../../public/arrow.png" alt="fsd" />
+                  <img
+                    src="https://i.ibb.co/0mHkgyR/download-6.png"
+                    alt="fsd"
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <button className="activities_btn" data-aos="fade-up-left">
-            SEE ALL ACTIVITIES <img src="../../public/imagearrow2.png" />
+          <button className="activities_btn" data-aos="fade-up">
+            SEE ALL ACTIVITIES{" "}
+            <img src="https://i.ibb.co/BCVWMM8/imagearrow2.png" />
           </button>
         </div>
       </div>
@@ -129,8 +139,9 @@ const DIV = styled.div`
     left: 11%;
     top: 45%;
     border-radius: 15px;
-    background: url(../../public/image2.png);
+    background: url(https://netpuppy.vercel.app/static/media/home62.7f4d5672b08220c83366.png);
     background-repeat: no-repeat;
+    color: white;
     background-size: 100% auto;
     opacity: 0.7;
   }
@@ -151,6 +162,7 @@ const DIV = styled.div`
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
+    color: white;
     line-height: normal;
     letter-spacing: 0.8px;
   }
@@ -224,10 +236,11 @@ const DIV = styled.div`
     margin: auto;
     overflow: hidden;
     padding-right: 30px;
-    background: url(../../public/image1.png);
+    background: url(https://netpuppy.vercel.app/static/media/home61.c100006451514b9106a1.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     position: relative;
+    color: white;
     margin-top: 13%;
   }
 
@@ -265,7 +278,7 @@ const DIV = styled.div`
   .custom_text_arrow_text {
     font-size: 12px;
     width: 40%;
-    color: #333;
+    color: white;
   }
 
   .custom_text_arrow_arrow img {
@@ -281,12 +294,13 @@ const DIV = styled.div`
     position: relative;
   }
   .left_img_child {
-    background: url(../../public/image1.png);
+    background: url(https://netpuppy.vercel.app/static/media/home63.10defa3b4076ee616c14.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100%;
     height: 100%;
     position: absolute;
+    color: white;
     left: 10%;
   }
 `;

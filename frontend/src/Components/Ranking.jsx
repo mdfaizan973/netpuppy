@@ -12,14 +12,14 @@ export default function Ranking() {
         <div className="cont_one">
           <div className="child_cont_one" data-aos="zoom-out">
             <div className="ranking">
-              <img src="../../public/NicePng_trophy-icon-png_1370145.png" />
+              <img src="https://i.ibb.co/MS7zdF5/Nice-Png-trophy-icon-png-1370145.png" />
               <h3>Our Rankings</h3>
               <p>Top Boarding School</p>
             </div>
           </div>
         </div>
         <div className="cont_two">
-          <img src="../../public/arrow.png" />
+          <img src="https://i.ibb.co/0mHkgyR/download-6.png" />
         </div>
         <div className="cont_the">
           <div className="cont_the_child" data-aos="zoom-out">

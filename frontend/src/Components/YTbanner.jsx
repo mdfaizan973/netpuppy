@@ -22,7 +22,7 @@ const DIV = styled.div`
   background: #000;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   height: 100vh;
-  background: url(../../public/image17.png);
+  background: url(https://netpuppy.vercel.app/static/media/youtube.93f2b22cfd790960942a.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   display: flex;

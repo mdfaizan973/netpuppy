@@ -52,7 +52,9 @@ export default function Banner2() {
 }
 const DIV = styled.div`
   .main_container {
-    background-image: url(../../public/blog1.png);
+    background-image: url(https://i.ibb.co/tHs3wfV/blog1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
     width: 100%;
     margin: 5% auto;

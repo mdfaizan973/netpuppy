@@ -44,21 +44,19 @@ const DIV = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
   }
   .content {
     width: 40%;
     height: 50%;
     margin: auto;
-    border: 1px solid green;
   }
   .button_area {
     width: 45%;
     height: 10%;
     margin: auto;
-    border: 1px solid green;
   }
   .bold_text {
-    border: 1px solid green;
   }
   .bold_text .become {
     color: #fff;
@@ -90,8 +88,8 @@ const DIV = styled.div`
     font-weight: 400;
     line-height: normal;
     width: 70%;
-    border: 1px solid green;
-    margin: 65px auto !important ;
+
+    margin: 70px auto !important ;
   }
 
   .phoneemail {
@@ -106,13 +104,13 @@ const DIV = styled.div`
     font-weight: 400;
     line-height: normal;
     width: 70%;
-    border: 1px solid green;
+
     margin: auto;
   }
   .button_area {
     width: 100%;
-    border: 1px solid green;
-    margin: 40px auto;
+
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
     height: 13% !important;

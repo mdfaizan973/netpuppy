@@ -27,13 +27,17 @@ export default function Students() {
                   22 Acres, Pollution- Free, World-Class.
                 </div>
                 <div className="text_arrow_arrow">
-                  <img src="../../public/arrow.png" alt="fsd" />
+                  <img
+                    src="https://i.ibb.co/0mHkgyR/download-6.png"
+                    alt="fsd"
+                  />
                 </div>
               </div>
             </div>
           </div>
           <button className="activities_btn">
-            SEE ALL ACTIVITIES <img src="../../public/imagearrow2.png" />
+            SEE ALL ACTIVITIES{" "}
+            <img src="https://i.ibb.co/BCVWMM8/imagearrow2.png" />
           </button>
         </div>
         <div className="left_container">
@@ -48,7 +52,10 @@ export default function Students() {
                     22 Acres, Pollution-Free, World-Class.
                   </div>
                   <div className="custom_text_arrow_arrow">
-                    <img src="../../public/arrow.png" alt="Arrow" />
+                    <img
+                      src="https://i.ibb.co/0mHkgyR/download-6.png"
+                      alt="Arrow"
+                    />
                   </div>
                 </div>
               </div>
@@ -66,10 +73,13 @@ export default function Students() {
                     22 Acres, Pollution-Free, World-Class.
                   </div>
                   <div className="custom_text_arrow_arrow">
-                    <img src="../../public/arrow.png" alt="Arrow" />
+                    <img
+                      src="https://i.ibb.co/0mHkgyR/download-6.png"
+                      alt="Arrow"
+                    />
                   </div>
                 </div>
-              </div>
+              </div>{" "}
             </div>
           </div>
         </div>
@@ -125,7 +135,7 @@ const DIV = styled.div`
     left: 11%;
     top: 45%;
     border-radius: 15px;
-    background: url(../../public/image1.png);
+    background: url(https://netpuppy.vercel.app/static/media/swim.6d9fffd0c26979c6f956.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     opacity: 0.7;
@@ -239,7 +249,7 @@ const DIV = styled.div`
     margin: auto;
     overflow: hidden;
     padding-right: 30px;
-    background: url(../../public/image1.png);
+    background: url(https://netpuppy.vercel.app/static/media/kudo.e32009844105ecf1353a.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     position: relative;
@@ -260,7 +270,7 @@ const DIV = styled.div`
     width: 80%;
     margin: auto;
     position: absolute;
-    bottom: 2%;
+    bottom: 15px;
     left: 10%;
   }
 
@@ -296,7 +306,7 @@ const DIV = styled.div`
     position: relative;
   }
   .left_img_child {
-    background: url(../../public/image1.png);
+    background: url(https://netpuppy.vercel.app/static/media/riding.aaec56e0363f61715622.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100%;
@@ -304,4 +314,10 @@ const DIV = styled.div`
     position: absolute;
     left: 15%;
   }
+
+  /* .background_clr {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000;
+  } */
 `;

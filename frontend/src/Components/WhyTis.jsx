@@ -42,7 +42,7 @@ export default function WhyTis() {
           </div>
           <div className="right_section">
             <div className="image_container" data-aos="fade-left">
-              <img src="../../public/241629295906 1.png" />
+              <img src="https://netpuppy.vercel.app/static/media/why2.b0b2c7166ee8848c7d8d.png" />
             </div>
             <div className="small_img_container">
               <div
