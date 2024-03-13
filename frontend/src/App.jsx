@@ -3,6 +3,7 @@ import Banner2 from "./Components/Banner2";
 import Collabaration from "./Components/Collabaration";
 import FOCUS from "./Components/FOCUS";
 import Map from "./Components/Map";
+import Navbar from "./Components/Navbar";
 import Ranking from "./Components/Ranking";
 import Students from "./Components/Students";
 import Tulas from "./Components/Tulas";
@@ -13,6 +14,7 @@ import Youtube from "./Components/Youtube";
 export default function App() {
   return (
     <div>
+      <Navbar />
       <Students />
       <YTbanner />
       <Tulas />
