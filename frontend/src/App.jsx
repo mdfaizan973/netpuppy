@@ -5,6 +5,7 @@ import Students from "./Components/Students";
 import Tulas from "./Components/Tulas";
 import WhyTis from "./Components/WhyTis";
 import YTbanner from "./Components/YTbanner";
+import Youtube from "./Components/Youtube";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Banner2 />
       <Achievement />
       <Ranking />
+      <Youtube />
     </div>
   );
 }
