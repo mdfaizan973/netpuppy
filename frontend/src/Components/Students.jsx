@@ -84,6 +84,10 @@ export default function Students() {
           </div>
         </div>
       </div>
+
+      <div className="center_image">
+        <img src="https://netpuppy.vercel.app/static/media/seemore.e8d2da45eb2413106ab9.png" />
+      </div>
     </DIV>
   );
 }
@@ -92,6 +96,15 @@ const DIV = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  .center_image {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 65%;
+  }
+  .center_image img {
+    width: 100%;
+  }
   .main_container {
     width: 80%;
     height: 100%;
