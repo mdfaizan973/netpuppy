@@ -124,7 +124,7 @@ const DIV = styled.div`
     left: 11%;
     top: 45%;
     border-radius: 15px;
-    background: url(../../public/image1.png);
+    background: url(../../public/image2.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     opacity: 0.7;

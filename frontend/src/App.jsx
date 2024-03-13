@@ -1,5 +1,6 @@
 import Achievement from "./Components/Achievement";
 import Banner2 from "./Components/Banner2";
+import Ranking from "./Components/Ranking";
 import Students from "./Components/Students";
 import Tulas from "./Components/Tulas";
 import WhyTis from "./Components/WhyTis";
@@ -14,6 +15,7 @@ export default function App() {
       <WhyTis />
       <Banner2 />
       <Achievement />
+      <Ranking />
     </div>
   );
 }
